@@ -1,0 +1,21 @@
+## Presentation
+1. What is Python
+2. Features of Python
+3. Difference between Compiler and Interpreter
+4. Properties and Behaviors
+5. High and Low Cohesion
+
+1. What is python 
+Python is a freely typed language which is both interpritted and compiled language
+The syntax is lite and it's works based on indentations to support it's flow of execution
+
+2. Features of python
+Python has Functional programming, Object oriented programming as well as procedural programming concepts
+Pythons can be used for Machine Learning, Data Analytics, Web Tech and for creating Games due to it's collection of extensive libraries
+
+3. Difference between compiler and Interpreter
+Compilers go through the whole code in one go but interpreters checks the code line by line in real time execution
+
+4. Properties and Behaviors
+
+
