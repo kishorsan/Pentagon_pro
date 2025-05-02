@@ -5,8 +5,6 @@ def createList(): # creating an integer array dynamically
             lst.append(int(input()))
         except:
             return lst # returnig after the exception is raised
-        
-    
 
 def AscList(arr1, arr2):
     i = j = 0 # initial values of i and j 
@@ -36,20 +34,19 @@ def inOneLoop(arr1, arr2):
     res = []
     i = j = 0
     while i < len(arr1) or j < len(arr2):
-        try:
-            if arr1[i] < arr2[j]:
-                res.append(arr1[i])
-                i += 1
-            else:
-                res.append(arr2[j])
-                j += 1
-        except:
+        if i >= len(arr1) or j >= len(arr2):
             if i < len(arr1):
                 res.append(arr1[i])
                 i += 1
             else:
                 res.append(arr2[j])
                 j += 1
+        elif arr1[i] < arr2[j]:
+            res.append(arr1[i])
+            i += 1
+        else:
+            res.append(arr2[j])
+            j += 1
     return res
 
 if __name__ == '__main__':
